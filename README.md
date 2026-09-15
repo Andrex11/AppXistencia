@@ -49,11 +49,11 @@ python main.py
 ## 📄 Formato de archivos Excel
 
 ### Excel de Horarios
-| Empleado | Entrada Mañana | Salida Mañana | Entrada Tarde | Salida Tarde | Entrada Mañana Sábado | Salida Mañana Sábado | Entrada Tarde Sábado | Salida Tarde Sábado | Observación |
-|----------|----------------|---------------|---------------|--------------|----------------------|---------------------|---------------------|---------------------|-------------|
-| 001 - Juan Pérez | 08:00 | 12:00 | 14:00 | 18:00 | 08:00 | 12:00 | | | |
-| 002 - María López | 07:30 | 12:30 | 14:00 | 17:30 | | | | | No trabaja sábados |
-| 003 - Carlos Ruiz | 08:00 | 17:00 | | | | | | | Jornada continua |
+| código | empleado | municipio | dia_semana | hora_inicio | hora_fin | es_segunda_jornada | activo |
+|--------|----------|-----------|------------|-------------|----------|--------------------|--------|
+| 001 | Juan Pérez | Centro | Lunes | 08:00 | 12:00 | 0 | 1 |
+| 001 | Juan Pérez | Centro | Lunes | 14:00 | 18:00 | 1 | 1 |
+| 002 | María López | Norte | Lunes | 07:30 | 17:30 | 0 | 1 |
 
 ### Excel Biométrico
 El archivo exportado directamente desde el reloj biométrico con las columnas:
