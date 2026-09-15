@@ -51,9 +51,11 @@ python main.py
 ### Excel de Horarios
 | código | empleado | municipio | dia_semana | hora_inicio | hora_fin | es_segunda_jornada | activo |
 |--------|----------|-----------|------------|-------------|----------|--------------------|--------|
-| 001 | Juan Pérez | Centro | Lunes | 08:00 | 12:00 | 0 | 1 |
-| 001 | Juan Pérez | Centro | Lunes | 14:00 | 18:00 | 1 | 1 |
-| 002 | María López | Norte | Lunes | 07:30 | 17:30 | 0 | 1 |
+| 001 | Juan Pérez | Centro | 1 | 08:00 | 12:00 | 0 | 1 |
+| 001 | Juan Pérez | Centro | 1 | 14:00 | 18:00 | 1 | 1 |
+| 002 | María López | Norte | 1 | 07:30 | 17:30 | 0 | 1 |
+
+> **Nota importante:** Es importante especificar el **municipio** en los registros de horarios, ya que este dato se utilizará para aplicar filtros sobre los datos de asistencia.
 
 ### Excel Biométrico
 El archivo exportado directamente desde el reloj biométrico con las columnas:
